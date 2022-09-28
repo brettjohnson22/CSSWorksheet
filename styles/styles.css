@@ -1,29 +1,34 @@
-.packers-colors {
-    background-color: green;
-    color: yellow;
-}
 
 body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#bdb76b
 }
 
-.test1{
+header{
+    font-size: 70px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.text-box{
     width:400px;
     border: 1px;
     border-radius: 8%;
     border-style: solid;
     padding: 20px;
+    text-align: justify;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+img {
+    object-fit: contain;
 }
 
-li {
-    float: left;
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -75px;
 }
 
 .flex-container{
@@ -34,13 +39,13 @@ li {
 .test2{
     width:100%;
     height:100vh;
-    background-color: darkcyan;
+    background-color: #bd8e6b;
 
 }
 .test3{
     width:100%;
     height:100vh;
-    background-color:darkolivegreen
+    background-color:#9abd6b
 
 }
 
@@ -50,6 +55,55 @@ li {
 }
 
 .back-img{
+    width:100%;
+    height:100vh;
     background-image: url("../images/coffee.jpg");
     background-size: cover;
 }
+
+.back-img-actual{
+    width:100%;
+    height:100vh;
+background-image: url("../images/coffee.jpg");
+background-repeat: no-repeat;
+}
+
+.back-img-tile{
+    width:100%;
+    height:100vh;
+    background-image: url("../images/coffee.jpg");
+    background-repeat: repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1c1b0d;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .colors {
+    background-color: #bd6b71;
+  }
+
+  .colors-2 {
+    background-color: #6b71bd;
+  }
